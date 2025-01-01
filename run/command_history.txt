@@ -1,0 +1,6 @@
+/gamemode survival\
+/gamemode survival
+/gamemode creative
+/enchant @a minecraft:efficiency 10
+/enchant @a minecraft:efficiency 5
+/gamemode survival
