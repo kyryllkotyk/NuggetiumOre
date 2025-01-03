@@ -20,13 +20,14 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> NUGGET_ORE = registerBlock("nugget_ore",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE)
-                    .strength(25.0f, 50.0f)
+                    .strength(5.0f, 50.0f)
                     .sound(SoundType.AMETHYST)
                     .requiresCorrectToolForDrops()));
 
+
     public static final RegistryObject<Block> NUGGET_BLOCK = registerBlock("nugget_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_BLOCK)
-                    .strength(25.0f, 50.0f)
+                    .strength(5.0f, 50.0f)
                     .sound(SoundType.AMETHYST)
                     .requiresCorrectToolForDrops()));
 

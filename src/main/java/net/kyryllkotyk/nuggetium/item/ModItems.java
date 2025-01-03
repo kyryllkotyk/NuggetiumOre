@@ -1,6 +1,11 @@
 package net.kyryllkotyk.nuggetium.item;
 
 import net.kyryllkotyk.nuggetium.NuggetiumOre;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,8 +18,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> NUGGET = ITEMS.register("nugget",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> NUGGET_COOKED = ITEMS.register("nugget_cooked",
-            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NUGGET_COOKED = ITEMS.register("nugget_cooked", () -> new Item(new Item.Properties().food(ModFoods.NUGGET_COOKED)));
 //    public static final RegistryObject<Item>  ENCHANTED_NUGGET = ITEMS.register("enchantedNugget",
 //            () -> new Item(new Item.Properties()));
 //    public static final RegistryObject<Item> NUGSCALIBUR = ITEMS.register("nugscalibur",
@@ -32,7 +36,7 @@ public class ModItems {
 //    public static final RegistryObject<Item> CATACLYSM = ITEMS.register("cataclysm",
 //            () -> new Item(new Item.Properties()));
 //    public static final RegistryObject<Item> NFC_BUCKET = ITEMS.register("nfcBucket",
-//            () -> new Item(new Item.Properties()));
+//            () -> new ArmorItem(NUGGET, ArmorItem.Type.HELMET, ))
 //    public static final RegistryObject<Item> DEEP_FRIED_CHESTPLATE = ITEMS.register("deepFriedChestplate",
 //            () -> new Item(new Item.Properties()));
 //    public static final RegistryObject<Item> DRUMSTICK_TROUSERS = ITEMS.register("drumstickTrousers",

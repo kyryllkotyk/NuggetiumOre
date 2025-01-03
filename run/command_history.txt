@@ -4,3 +4,34 @@
 /enchant @a minecraft:efficiency 10
 /enchant @a minecraft:efficiency 5
 /gamemode survival
+/time set day
+/gamemode creative
+/gamemode survival
+/give Dev nuggetium:nugget_block
+/gamemode creative
+/give Dev minecraft:coal 64
+/gamemode survival
+/give Dev minecraft:netherite_block
+/effect give Dev minecraft:hunger
+/give @a minecraft:netherite_chestplate
+/give Dev minecraft:netherite_sword
+/give @a minecraft:wither_spawn_egg
+/give @a minecraft:wither_skeleton_spawn_egg
+/give Dev bow
+/give Dev arrow 64
+/enchant Dev power 5
+/enchant Dev sharpness 5
+/give Dev minecraft:stone_pickaxe
+/give Dev minecraft:netherite_pickaxe
+/give Dev nuggetium:nugget_block
+/give Dev nuggetium:nugget_ore
+/give @a minecraft:wither_skeleton_spawn_egg
+/give Dev nuggetium:nugget_ore
+/give Dev minecraft:diamond_pickaxe
+/give Dev nuggetium:nugget_ore
+/give Dev minecraft:diamond_pickaxe
+/enchant Dev minecraft:silk_touch
+/give Dev nuggetium:nugget_ore
+/give Dev minecraft:iron_pickaxe
+/enchant Dev minecraft:silk_touch
+/give Dev minecraft:flint_and_steel
